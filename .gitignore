@@ -16,3 +16,6 @@
 # System files
 .DS_Store
 Thumbs.db
+
+#Java files config
+/backend/Oracle_JDK-23/
