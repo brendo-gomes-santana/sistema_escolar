@@ -3,6 +3,12 @@ package school.management.system;
 import javax.swing.*;
 
 public class Login extends JFrame {
+
+
+    JLabel label1, label2, label3;
+    JTextField textField2;
+    JPasswordField passwordField3;
+
     Login(){
         super("School System");
         setSize(850, 480);
@@ -12,7 +18,7 @@ public class Login extends JFrame {
         label1 = new JLabel("SISTEMA DE NOTAS ESCOLAR");
         label1.setBounds(350, 80, 450, 40);
         add(label1);
-        
+
         label2 = new JLabel("Usuário: ");
         label2.setBounds(000, 150, 450, 40);
         add(label2);
@@ -34,3 +40,6 @@ public class Login extends JFrame {
         new Login();
     }
 }
+
+
+/// TÔ ALTERANDO E DEIXANDO TUDO PARAR DE FUNCIONAR
