@@ -4,11 +4,12 @@ import javax.swing.*;
 
 public class Login extends JFrame {
 
+
     JLabel label1, label2, label3;
     JTextField textField2;
     JPasswordField passwordField3;
 
-    Login() {
+    Login(){
         super("School System");
         setSize(850, 480);
         setLocation(450, 200);
