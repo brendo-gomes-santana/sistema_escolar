@@ -11,9 +11,6 @@ public class Login extends JFrame {
         setVisible(true);
     }
 
-    // eu estou aqui
-    // estou aqui tbm
-    //fala tu
     public static void main(String[] args) throws Exception {
         new Login();
     }
